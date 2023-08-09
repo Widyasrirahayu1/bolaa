@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pulau jeju</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #00369b;
+  background-color: ;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #00369b;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Pulau Jeju</h2>
+<p>Pulau Jeju (Jeju-do) adalah pulau terbesar di Korea dan terletak di sebelah selatan Semenanjung Korea. Pulau Jeju adalah satu-satunya provinsi berotonomi khusus Korea Selatan</p>
+<p>Terletak di Selat Korea, sebelah barat daya Provinsi Jeolla Selatan, yang dahulunya merupakan satu provinsi sebelum terbagi pada tahun 1946. Ibu kota Jeju adalah Kota Jeju (Jeju-si).</p>
+
+<header>
+  <h2>KOTA JEJU</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Jeju</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Pulau Jeju</h1>
+    <p>Pulau Jeju dijuluki Samdado, "Pulau yang Berlimpah dengan Tiga Hal" yaitu, bebatuan, wanita dan angin. 
+    Karena memiliki keindahan alam dan kebudayaan yang unik, Pulau Jeju adalah salah satu objek wisata paling terkenal di Korea.
+    Dalam catatan sejarah, Jeju disebut dalam berbagai nama, mulai dari Doi, Dongyeongju, Juho, Tammora, Seomna, Tangna atau Tamra</p>
+    <img src="jeju.jpg" alt="" width="200" height="104">
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
